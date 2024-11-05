@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -36,7 +41,6 @@ div.container{
 }
 
 p.left{
-    float: left;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -68,15 +72,19 @@ main{
     margin: 0 10rem;
 }
 
+#slider{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
 #slider img{
     width: 100%;
-    border: white solid 1rem;
 }
 
 #slider h2{
     position: absolute;
     background-color: rgba(246, 212, 245, 0.8);
-    margin-left: 1rem;
     font-size: 1rem;
     padding: 1rem;
 }
@@ -86,5 +94,10 @@ h2 span {
 }
 
 #select{
+    background-color: white;
+    display: flex;
+}
 
+.escarpin img{
+    width: 50%;
 }
