@@ -23,7 +23,7 @@ div.container {
 }
 
 .topbar {
-    width: 100%;
+    /* width: 100%; */
     background-color: #0A0A0A;
     color: #F6D4F5;
     text-align: center;
@@ -243,7 +243,43 @@ article h2 {
 }
 
 @media (max-width: 640px) {
+    body{
+        width: 100%;
+    }
+    div.container{
+        margin: 0;    
+    }
+    div.container img{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        text-align: center;
+    }
+    main{
+        margin: 1rem;
+    }
     #cart {
         display: none;
+    }
+    #slider h2{
+        position: static;
+    }
+    h1{
+        position: static;
+    }
+    #select{
+        flex-direction: column;
+    }
+    .escarpin{
+        align-self: center;
+    }
+    #news article{
+        width: 100%;
+    }
+    #info, #bottombar{
+        flex-direction: column;
     }
 }
